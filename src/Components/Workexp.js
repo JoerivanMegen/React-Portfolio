@@ -2,7 +2,7 @@ import React from 'react';
 import Indeed from '../Assets/Images/Indeed-Logo.png';
 import Cognizant from '../Assets/Images/cognizant-logo.png';
 import SBG from '../Assets/Images/sbg.png';
-import Kedge from '../Assets/Images/kedge.png';
+import Accenture from '../Assets/Images/accenture.png';
 import TG from '../Assets/Images/techgrounds.png';
 import Zuyd from '../Assets/Images/Zuyd-Hogeschool.png';
 import {Link} from 'react-router-dom';
@@ -25,6 +25,20 @@ function Workexp() {
             <p className="collapse-button" onClick={openExp}>Show more experience!{<br/>}(I've had more than one job)</p>
             <p className="show-less" onClick={openExp}>Show less!</p>
             <div className="card-container">
+                <div className="card">
+                    <div className="image-container">
+                        <img style={{width: 90+"%", height: "auto"}} alt="Accemture" src={Accenture}  className="kedgeimg"></img>
+                        <Link to={{pathname: "/", search: "?accenture=true"}} className="more-info-button">
+                            More info
+                        </Link>
+                    </div>
+                    <div className="card-bottom">   
+                        <h3 className="job company">Accenture</h3>
+                        <p className="job location">Heerlen, the Netherlands</p>
+                        <p className="job title">Web Development Engineer</p>
+                        <p className="job duration">December, 2021 - Present</p>
+                    </div>
+                </div>
                 <div className="card">
                     <div className="image-container">
                         <img alt="Indeed" src={Indeed}></img>
@@ -81,20 +95,6 @@ function Workexp() {
                         <p className="job location">Maastricht, the Netherlands</p>
                         <p className="job title">HBO European Studies</p>
                         <p className="job duration">September, 2013 - July, 2018</p>
-                    </div>
-                </div>
-                <div className="card">
-                    <div className="image-container">
-                        <img style={{width: 100+"%", height: "auto"}} alt="Kedge Business School" src={Kedge}  className="kedgeimg"></img>
-                        <Link to={{pathname: "/", search: "?kedge=true"}} className="more-info-button">
-                            More info
-                        </Link>
-                    </div>
-                    <div className="card-bottom">   
-                        <h3 className="job company">Kedge Business</h3>
-                        <p className="job location">Marseille, France</p>
-                        <p className="job title">International Marketing</p>
-                        <p className="job duration">September, 2016 - January, 2017</p>
                     </div>
                 </div>
                 <div className="card">

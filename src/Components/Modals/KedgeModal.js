@@ -1,12 +1,12 @@
 import React from "react";
 import Modal from "../Modal";
-import KedgeLogo from "../../Assets/Images/kedge.png";
+import KedgeLogo from "../../Assets/Images/accenture.png";
 
 export default function KedgeModal(props) {
     let params = new URLSearchParams(props.location.search);
 
     return (
-      params.get("kedge") && (
+      params.get("accenture") && (
         <Modal
           onClick={() => {
             props.history.push(props.location.pathname);
