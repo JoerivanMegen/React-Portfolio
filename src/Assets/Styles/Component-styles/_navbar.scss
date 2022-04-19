@@ -1,0 +1,148 @@
+@import '../Variables/colors';
+
+.navbar{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    z-index: 100;
+    position: fixed;
+    transition: all ease 250ms;
+    font-weight: bold;
+    
+    &.scroll{
+        background-color: whitesmoke;
+        height: 8vh;
+        transition: all 250ms ease;
+        color: $background-color;
+        border-image: linear-gradient(to right, $background-color 0%, $background-color-two 100%);
+        &::after{
+            position: absolute;
+            left: 0;
+            bottom: -0.75vh;
+            height: 0.75vh;
+            content: "";
+            background: linear-gradient(to right, $background-color, $background-color-two);
+            width: 100%;
+        }
+        .logo-holder{
+            color: $background-color;
+        }
+    }
+    .logo-holder{
+        position: relative;
+        color: whitesmoke;
+        font-size: 35px;
+        align-items: center;
+        margin-left: 10vw;
+        letter-spacing: -3px;
+        font-weight: bold;
+    }
+}
+
+
+.nav-links{
+    display: flex;
+    width: 35vw;
+    justify-content: space-between;
+    margin-right: 10vw;
+    align-items: center;
+    a{
+        text-decoration: none;
+    }
+    li{
+        list-style: none;
+        color: whitesmoke;
+        text-align: center;
+    }
+}
+.scroll{
+    .nav-links{
+        li{
+            color: $background-color-two;
+        }
+    }
+}
+.burger{
+    display: none;
+    div{
+        width: 25px;
+        height: 3px;
+        background-color: whitesmoke;
+        margin: 5px; 
+        transition: all 200ms ease;
+    }
+}
+@media screen and (max-width: 720px) {  
+    .navbar{
+        z-index: 100;
+    }
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 90vh;
+        top: 10vh;
+        margin: 0;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 30vw;
+        transform: translateX(100%);
+        padding:0;
+        transition: transform 200ms ease;
+        z-index: 99;
+        transition: all 250ms ease;
+        li{
+            margin-top:-5vh;
+            color: whitesmoke;
+            font-weight: bold;
+            text-shadow:black 0px 0px 2px;
+            text-align: center;
+        }
+    }
+    
+
+    .burger{
+        display: block;
+        margin-right: 10vw;
+        cursor: pointer;
+    }
+    .navbar.scroll{
+        .nav-links{
+            height: 92vh;
+            top: 8vh;
+            background-image: linear-gradient(to top, rgba(0, 0, 52,0.5), $background-color-opa 104%);
+            // background-color: rgba(255, 166, 0, 1);
+            li{
+                color: whitesmoke;
+                font-weight: bold;
+                text-shadow:black 0px 0px 2px;
+                // color: $black-olive;
+            }
+        }
+        .burger{
+            div{
+                background-image: linear-gradient(to right, $background-color, $background-color-two);
+            }
+        }
+    }
+
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+    transition: all 200ms ease;
+}
+.toggle .line2{
+    opacity: 0;
+    transition: all 200ms ease;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+    transition: all 200ms ease;
+}
+.nav-active{
+    transform: translateX(0%);
+}

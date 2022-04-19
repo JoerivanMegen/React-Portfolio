@@ -1,0 +1,145 @@
+.stopwatch{
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom left, rgb(104, 104, 104), rgb(151, 151, 151));
+    position: relative;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 0 0 20px 2px rgb(0, 0, 0);
+    max-width: 350px;
+    max-height: 350px;
+    }
+
+.inside-stopwatch{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 5%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+.title {
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+    position: relative;
+    padding: 0;
+    margin: 0 auto;
+    height: 80%;
+    }
+}
+
+.knoppen-container{
+    display: flex;
+    justify-content: center;
+    height: 33%;
+    .button{
+        border-radius: 50%;
+        width: 8vw;
+        height: 8vw;
+        margin: 2px;
+        margin-top: 10px;
+        max-width: 65px;
+        max-height: 65px;
+    }
+}
+.start{
+    background-color: green;
+    border:1px solid greenyellow;
+    color: whitesmoke;
+}
+.start:hover{
+    background-color: rgb(0, 90, 0);
+}
+
+.stop{
+    background-color: rgb(216, 216, 0);
+    border: 1px solid yellow;
+    color: rgb(41, 41, 41);
+}
+.stop:hover{
+    background-color: rgb(148, 148, 0);
+    color: whitesmoke;
+}
+.reset{
+    background-color: rgb(155, 0, 0);
+    border: 1px solid red;
+    color: whitesmoke;
+}
+.reset:hover{
+    background-color: rgb(104, 0, 0);
+}
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(25, 34, 25);
+    height: 30%;
+    width: 80%;
+    margin: auto;
+    border-radius: 3%/10%;
+    color: rgb(201, 201, 201);
+    p{
+        font-size: 50px;
+    }
+}
+.timer span{
+    display: inline-block;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+@media only screen and (max-width: 750px){
+    .if-small{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 620px){
+    .timer{
+        p{
+            font-size: 40px;
+        }
+        span{
+            font-size: 40px;
+        }
+    }
+}
+@media only screen and (max-width: 470px){
+    .timer{
+        p{
+            font-size: 30px;
+        }
+        span{
+            font-size: 30px;
+        }
+    }
+}
+@media only screen and (max-width: 370px){
+    .timer{
+        p{
+            font-size: 25px;
+        }
+        span{
+            font-size: 25px;
+        }
+    }
+}
+@media only screen and (max-width: 300px){
+    .timer{
+        p{
+            font-size: 20px;
+        }
+        span{
+            font-size: 20px;
+        }
+    }
+}

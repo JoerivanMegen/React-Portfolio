@@ -1,0 +1,141 @@
+.welcome-container{
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    .welcome-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 5vh;
+        .welcome-text{
+            height: 30%;
+            width: 80%;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-end;
+            transition: all 50ms ease-out;
+            &:hover{
+                letter-spacing: 5px;
+                transition: all 500ms ease;
+            }
+            .hi-name{
+                font-size: 60px;
+                font-weight: bold;
+                // color: #0c688d;
+                color:whitesmoke;
+                // color: rgb(113, 173, 0);
+                text-shadow: rgb(34, 34, 34) 1px 1px 4px;
+                // &:hover{
+                //     letter-spacing: 5px;
+                //     transition: all 200ms ease;
+                // }
+                span{
+                    font-size: 60px;
+                    font-weight: bold;
+                    color: orange;
+                }
+            }
+            .hi-front{
+                font-size: 40px;
+                color: whitesmoke;
+                text-shadow: rgb(34, 34, 34) 1px 1px 4px;
+                font-style: italic;
+                span{
+                    font-size: 40px;
+                    color: orange;
+                    font-style: italic;
+                }
+            }
+        }
+        .welcome-buttons{
+            height: 50%;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            .socials{
+                width: 200px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 20px;
+                path{
+                    // color: rgb(104, 104, 104);
+                    // color: $black-olive;
+                    color: whitesmoke;
+                    margin: 5px;
+                }
+                .github{
+                    &:hover{
+                        path{
+                        color: #171515;
+                        }
+                    }
+                }
+    
+                .linkedin{
+                    &:hover{
+                        path{
+                            color: #0e76a8;
+                        }
+                    }
+                    path{
+                        position: relative;
+                    &:after{
+                        position: absolute;
+                        width: 200px;
+                        height: 200px;
+                        background-color: red;
+                        top: -5px;
+                        z-index: 1000;
+                    }
+                    }
+                }
+                .email{
+                    &:hover{
+                        path{
+                            color: $english-vermillion;
+                        }
+                    }
+                }
+            }
+            .about-me-button{
+                width: 200px;
+                height: 56px;
+                text-decoration: none;
+                color: whitesmoke;
+                // background-image: linear-gradient(to left top, rgb(177, 115, 0) 10%, orange 50%, $deep-champagne);
+                background-color: orange;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                font-weight: bold;
+                margin-top: 5px;
+                transition: all 200ms ease;
+                text-shadow: black 0px 0px 4px;
+                &:hover{
+                    color: whitesmoke;
+                    background-color: rgb(216, 140, 0);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {  
+    .welcome-text{
+        margin-top: 25vh;
+    }
+}

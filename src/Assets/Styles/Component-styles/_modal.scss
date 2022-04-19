@@ -1,0 +1,315 @@
+.modal-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    .modal-backdrop{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: rgba(0, 0, 0, 0.527);
+        .exit-mobile{
+            border: none;
+            color: whitesmoke;
+            background: none;
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            font-weight: bolder;
+            cursor: pointer;
+            display: none;
+            .close-one{
+                width: 25px;
+                height: 5px;
+                background-color: whitesmoke;
+                transform: rotate(45deg);
+                border-radius: 3px;
+            }
+            .close-two{
+                width: 25px;
+                height: 5px;
+                background-color: whitesmoke;
+                transform: rotate(-45deg) translate(4px,-4px);
+                border-radius: 3px;
+            }
+        }
+    }
+    .modal-box{
+        width: 80%;
+        height: 80%;
+        background-color: whitesmoke;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 100;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        overflow-y: scroll;
+        justify-content: space-between;
+        min-width: 300px;
+        max-width: 800px;
+        .modal-header{
+            height: 200px;
+            width: 100%;
+            background-image: linear-gradient(to right, $background-color 0%, $background-color-two);
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .close-button{
+                border: none;
+                color: whitesmoke;
+                background: none;
+                position: absolute;
+                top: 20px;
+                right: 10px;
+                font-weight: bolder;
+                cursor: pointer;
+                .close-one{
+                    width: 25px;
+                    height: 5px;
+                    background-color: whitesmoke;
+                    transform: rotate(45deg);
+                    border-radius: 3px;
+                }
+                .close-two{
+                    width: 25px;
+                    height: 5px;
+                    background-color: whitesmoke;
+                    transform: rotate(-45deg) translate(4px,-4px);
+                    border-radius: 3px;
+                }
+                &:hover{
+                    .close-one{
+                        background-color: $english-vermillion;
+                    }
+                    .close-two{
+                        background-color: $english-vermillion;
+                    }
+                }
+            }
+            .modal-logo{
+                height: 180px;
+                width: 180px;
+                margin: 10px;
+                background-color: whitesmoke;
+                border-radius: 5px;
+                border: 3px $background-color-two ridge;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .job-information{
+                width: 40%;
+                height: auto;
+                margin: 10px;
+                display: flex;
+                color: whitesmoke;
+                overflow: wrap;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: flex-start;
+                font: message-box;
+                .modal-job-title{
+                    font-size: 20px;
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+                .modal-job-duration{
+                    font-style: italic;
+                }
+            }
+            .job-keywords{
+                width: 25%;
+                height: auto;
+                margin: 10px;
+                color: whitesmoke;
+                font: message-box;
+                p{
+                    font-weight: bold;
+                    margin-bottom: 5px;
+                }
+                li{
+                    list-style: none;
+                    font-weight: 100;
+                }
+            }
+        }
+        .modal-job-details{
+            margin: 0 auto;
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font: message-box;
+            h3{
+                margin-top: 20px;
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 865px) {
+    .modal-container{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        height: 100vh;
+        z-index: 999;
+        display: flex;
+        flex-direction: column;
+        .modal-backdrop{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 10vh;
+            background-image: linear-gradient(to right, $background-color, $background-color-two);
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            animation: ease slideInRight 500ms;
+            .exit-mobile{
+                display: block;
+                position: relative;
+                top: 0px;
+                margin-right: 3vh;
+            }
+        }
+        .modal-box{
+            height: 90vh;
+            width: 110vw;
+            position: absolute;
+            bottom: 0;
+            top: 10vh;
+            left: 0;
+            right: 0;
+            max-width: none;
+            transform: translate(0,0);
+            background-color: whitesmoke;
+            z-index: 100;
+            border-radius: 0px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: scroll;
+            justify-content: space-between;
+            animation: slideUp ease 500ms;
+            .modal-header{
+                height: 100%;
+                width: 100vw;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                background-image: none;
+                background-color: whitesmoke;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                .close-button{
+                    display: none;
+                    &:hover{
+                        .close-one{
+                            background-color: $english-vermillion;
+                        }
+                        .close-two{
+                            background-color: $english-vermillion;
+                        }
+                    }
+                }
+                .modal-logo{
+                    height: 180px;
+                    width: 180px;
+                    min-width: 180px;
+                    min-height: 180px;
+                    background-color: whitesmoke;
+                    border-radius: 5px;
+                    border: 3px $background-color-two ridge;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+                .job-information{
+                    width: 80%;
+                    height: auto;
+                    display: flex;
+                    color: $background-color-two;
+                    overflow: wrap;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    font: message-box;
+                    text-align: center;
+                    .modal-job-title{
+                        font-size: 20px;
+                        font-weight: bold;
+                        margin-bottom: 5px;
+                        text-align: center;
+                    }
+                    .modal-job-duration{
+                        font-style: italic;
+                        text-align: center;
+                    }
+                }
+                .job-keywords{
+                    display: none;
+                }
+            }
+            .modal-job-details{
+                margin: 0 auto;
+                width: 80%;
+                display: flex;
+                overflow-wrap: normal;
+                flex-direction: column;
+                justify-content: center;
+                font: message-box;
+                h3{
+                    margin-top: 20px;
+                    font-weight: bold;
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+                p{
+                    width: 90%;
+                }
+                li{
+                    width: 90%;
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+    @keyframes slideInRight{
+        0%{
+            transform: translateX(-100%);
+        }
+        100%{
+            transform: translateX(0%);
+        }
+    }
+    @keyframes slideUp {
+        0%{
+            transform: translateY(100%);
+        }
+        100%{
+            transform: translateY(0%);
+        }
+        
+    }
+}

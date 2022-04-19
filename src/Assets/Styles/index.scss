@@ -1,0 +1,28 @@
+//overall variables
+@import './Variables/colors';
+
+// styles per component
+@import './Component-styles/navbar';
+@import './Component-styles/welcome';
+@import './Component-styles/workexp';
+@import './Component-styles/modal';
+@import './Component-styles//stopwatch';
+@import './Component-styles/projects';
+@import './Component-styles/footer';
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font: message-box;
+}
+body{
+    background-image: linear-gradient(to top, rgb(0, 0, 52), $background-color 95%);
+    min-height: 100vh;
+    background-attachment: fixed;
+    z-index: -2;
+}
+div#root{
+    overflow: hidden;
+}
