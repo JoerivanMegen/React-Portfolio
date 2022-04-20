@@ -47,9 +47,9 @@ export default function Indeed(props) {
               <li>Collaborate cross-functionally (with Finance, Product, Service teams) to refine recommendations and develop joint action plans.</li>
             </ul>
             <h3>Job Description:</h3>
-            <p>This Senior Sales Strategist position sits in our Global CS and Sales Strategy team which focuses on driving innovation in products, tools and processes that help our Sales teams succeed. We collaborate with functions across Indeed, including Sales, Product, Finance, Client Services, and Marketing to identify strategies for growth and efficiency. We are excited to help transform the recruitment industry by improving lives around the world, one job at a time.</p>
+            <p>This Sales Strategist position sits in the Global CS and Sales Strategy team which focuses on driving innovation in products, tools and processes that help Sales teams succeed. We collaborated with functions across Indeed, including Sales, Product, Finance, Client Services, and Marketing to identify strategies for growth and efficiency.</p>
             <br/>
-            <p>The Senior Sales Strategist works closely with stakeholders across functions and global regions to help lead and execute strategic initiatives that boost revenue, retain drive operational scale and improve efficiency for continuous exponential growth. Indeed employees are united by one common mission: they help people get jobs. The company’s success is due to the fact that their employees are laser-focused, collaborative, passionate, data-driven and committed to results.</p>
+            <p>As a Sales Strategist I worked closely with stakeholders across functions and global regions to help lead and execute strategic initiatives that boost revenue, retain drive operational scale and improve efficiency for continuous exponential growth. What brought me to Indeed was their mission: To help people get jobs. I felt that I could make a positive change in peoples lives which made me proud to work in my job every day.</p>
             <br/><br/><br/>
           </div>
         </Modal>

@@ -46,14 +46,13 @@ export default function CognizantModal(props) {
               <li>Collaborate cross-departmentally (with Google's Account Managers and AI teams) to refine recommendations and develop joint action plans.</li>
             </ul>
             <h3>Job Description:</h3>
-            <p>The main purpose of the roles would be to act as a Subject Matter Expert for AdWords campaign optimization for
-              high-value clients in the following areas of language cover – German and French</p>
+            <p>The main purpose of the roles was to act as a Subject Matter Expert for AdWords campaign optimization for
+              high-value clients in the Benelux market.</p>
             <br/>
             <p>
-              Employees will be part of a rapidly growing multilingual client facing team. The Team will be working onsite with and
-              alongside internal teams for a leading online multinational company to respond to client leads and assist in the
-              success of this project. Successful candidates will receive extensive training to develop your skills to succeed in an environment that is
-              professional, modern, fast paced and driven by excellence.</p>
+              I was a part of a rapidly growing, multilingual, client-facing team. We were working onsite with and
+              alongside internal teams for Google to respond to client leads and assist in the
+              success of the Google Ads project. After two months of extensive training, I got to jump into Google's high-value clients to help optimize their campaigns, to improve their ROI from their Google Ads endeavours.</p>
             <br/><br/><br/>
           </div>
         </Modal>
