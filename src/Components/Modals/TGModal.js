@@ -24,35 +24,40 @@ export default function TGModal(props) {
               <img src={TGLogo} alt="Techgrounds Logo" />
             </div>
             <div className="job-information">
-              <div className="modal-job-title">Account Strategist Onboarding EMEA - Benelux</div>
-              <div className="modal-job-location">Dublin, Ireland</div>
-              <div className="modal-job-duration">January, 2020 - April, 2021</div>
+              <div className="modal-job-title">Web Development (Front-End)</div>
+              <div className="modal-job-location">Amsterdam, the Netherlands</div>
+              <div className="modal-job-duration">May, 2021 - October, 2021</div>
             </div>
             <div className="job-keywords">
-              <p>Keywords:</p>
+              <p>Stack:</p>
               <ul>
-                <li>Proactivity</li>
-                <li>Communication</li>
-                <li>Autonomy</li>
-                <li>Innovation</li>
+                <li>HTML, CSS, SCSS and Bootstrap</li>
+                <li>Javascript</li>
+                <li>ReactJS</li>
+                <li>Git</li>
               </ul>
             </div>
             
           </div>
-          <div className="modal-job-details">
-            <h3>Key Tasks:</h3>
-            <ul>
-              <li>Optimising Indeed's organic clients' campaigns to increase their ROI in recruitment for the Benelux market.</li>
-              <li>Researching keywords, CPC (cost-per-click) prices, the job market and competitors to help give clients the best possible advise to improve their recruitment campaigns.</li>
-              <li>Communicate with my book of business to ensure a positive experience with Indeed's products.</li>
-              <li>Drive operational excellence through the identification and execution of opportunities that create efficiency, revenue and increase customer satisfaction.</li>
-              <li>Collaborate cross-functionally (with Finance, Product, Service teams) to refine recommendations and develop joint action plans.</li>
-            </ul>
-            <h3>Job Description:</h3>
-            <p>This Senior Sales Strategist position sits in our Global CS and Sales Strategy team which focuses on driving innovation in products, tools and processes that help our Sales teams succeed. We collaborate with functions across Indeed, including Sales, Product, Finance, Client Services, and Marketing to identify strategies for growth and efficiency. We are excited to help transform the recruitment industry by improving lives around the world, one job at a time.</p>
-            <br/>
-            <p>The Senior Sales Strategist works closely with stakeholders across functions and global regions to help lead and execute strategic initiatives that boost revenue, retain drive operational scale and improve efficiency for continuous exponential growth. Indeed employees are united by one common mission: they help people get jobs. The company’s success is due to the fact that their employees are laser-focused, collaborative, passionate, data-driven and committed to results.</p>
-            <br/><br/><br/>
+          <div className="modal-job-details" style={{marginBottom: 20 + "px"}}>
+            <h3 >Education:</h3>
+              <p>I started at TechGrounds with nearly no knowledge about development at all. All I knew was different branches in development, the existence of some languages, that there is a strong use of certain logics and maths, and that there is a massive scarcity of people who can do the job.</p>
+              <br/>
+              <p>It was quite challenging to get started, but HTML seemed rather easy, so it was a nice way step into the sector.</p>
+              <br/>
+              <p>Next up was CSS. A bit more difficult, especially in terms of positioning and flex.
+                <br/> We worked in groups at TechGrounds. Mostly so we could start getting a feel for Scrum and so we could learn from each other. Together we would work on worksheets that would guide us through the principles of CSS (and also the other topics we covered). 
+              </p>
+              <p>With CSS, we also worked with Bootstrap and SCSS. I'm personally not the biggest fan of Bootstrap, because I prefer to customise a bit more, but I am able to use it to make responsive designs.</p>
+              <br/>
+              <p>
+                Then, the hard part... JavaScript. I had a hard time keeping up with my peers at first. Many times I was close to seeing a laptop-shaped hole in my wall, but eventually, bit by bit, I started to understand more how to use it and also how to use resources online to get the answers that I needed. As you can see in my projects under this section, there are some projects written with JavaScript.
+                <br/> The idea of increments and loops seemed quite abstract to me at first, but when you see the practical use of these, it suddenly all starts to make sense.
+              </p>
+              <br/>
+              <p>Since JS was so challenging, I was pretty nervous to get started on React. But I had heard that React had the possibility to write HTML and JavaScript together in one file, which I found quite exciting at the same time. Again, it took me some time to get used to work with React, but I love it now. At the moment, I would say that it is my favourite language to work with (so far).</p>
+              <br/>
+              <p>Besides all the technical knowledge I gathered, I have also been able to develop myself when it comes to working with Git, Scrum and Kanban boards. It was their way of preparing us for a real job in coding.</p>
           </div>
         </Modal>
       )

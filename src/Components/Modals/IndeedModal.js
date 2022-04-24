@@ -38,6 +38,8 @@ export default function Indeed(props) {
             
           </div>
           <div className="modal-job-details">
+            <h3>Special Mention:</h3>
+            <p>In March of 2021, I won the award for the most innovative employee in the Dublin office. I've done so by creating a CRM-like system in Excel using data that we received from our lead generating system. Using complex formulas, I was able to calculate the perfect CPC ratio for our clients to get maximum results. Furthermore, the data was able to show how long our clients had been running their campaigns and how long they would (most likely) need to continue. Long story short; the document gave our teams a holistic view on how their clients were performing. Eventually the document was rolled out in the APAC and North American markets.</p>
             <h3>Key Tasks:</h3>
             <ul>
               <li>Optimising Indeed's organic clients' campaigns to increase their ROI in recruitment for the Benelux market.</li>

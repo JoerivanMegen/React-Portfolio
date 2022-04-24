@@ -46,7 +46,7 @@ export default function CognizantModal(props) {
               <li>Collaborate cross-departmentally (with Google's Account Managers and AI teams) to refine recommendations and develop joint action plans.</li>
             </ul>
             <h3>Job Description:</h3>
-            <p>The main purpose of the roles was to act as a Subject Matter Expert for AdWords campaign optimization for
+            <p>The main purpose of the role was to act as a Subject Matter Expert for AdWords campaign optimization for
               high-value clients in the Benelux market.</p>
             <br/>
             <p>
