@@ -38,18 +38,19 @@ export default function ZuydModal(props) {
             
           </div>
           <div className="modal-job-details">
-            <h3>Key Tasks:</h3>
+            <h3>Special Mentions:</h3>
             <ul>
-              <li>Optimising Indeed's organic clients' campaigns to increase their ROI in recruitment for the Benelux market.</li>
-              <li>Researching keywords, CPC (cost-per-click) prices, the job market and competitors to help give clients the best possible advise to improve their recruitment campaigns.</li>
-              <li>Communicate with my book of business to ensure a positive experience with Indeed's products.</li>
-              <li>Drive operational excellence through the identification and execution of opportunities that create efficiency, revenue and increase customer satisfaction.</li>
-              <li>Collaborate cross-functionally (with Finance, Product, Service teams) to refine recommendations and develop joint action plans.</li>
+              <li>In 2016, I went on exchange for a semester at Kedge Business School in Marseille, France, where I specialised in international marketing.</li>
+              <li>In 2018, I took the opportunity to do an internship in online marketing in Turin, Italy at SmartBuyGlasses.</li>
+              <li>I was one of the only ones in my year who passed their thesis first try. I wrote mine on the influence of language on international marketing. </li>
             </ul>
-            <h3>Job Description:</h3>
-            <p>This Senior Sales Strategist position sits in our Global CS and Sales Strategy team which focuses on driving innovation in products, tools and processes that help our Sales teams succeed. We collaborate with functions across Indeed, including Sales, Product, Finance, Client Services, and Marketing to identify strategies for growth and efficiency. We are excited to help transform the recruitment industry by improving lives around the world, one job at a time.</p>
+            <h3>More Information:</h3>
+            <p>The European Studies degree was intriguing to me, because I have a very strong interest for languages and cultures. Besides that, I was interested in business but also in the public domain, but wasn't sure yet which one I wanted to go for.
+            Therefore, ES seemed to be the perfect option. The languages that I chose where French and Spanish. I didn't choose German since I already had some knowledge of the language from growing up just at the border of Germany.</p>
             <br/>
-            <p>The Senior Sales Strategist works closely with stakeholders across functions and global regions to help lead and execute strategic initiatives that boost revenue, retain drive operational scale and improve efficiency for continuous exponential growth. Indeed employees are united by one common mission: they help people get jobs. The company’s success is due to the fact that their employees are laser-focused, collaborative, passionate, data-driven and committed to results.</p>
+            <p>After the first two years, I decided to specialise in international marketing, as my interest moved more towards business than it did to the public sector. </p>
+            <br/>
+            <p>I wrote my thesis on the influence of language on international marketing, focusing on the Dutch market compared to the Irish market. I then tried to find out why certain brands would sell the same products with different names depending on the market, with brands such as the Laughing Cow (La Vache Qui Rit in NL), Galaxy (Dove in NL) and Aero (Bros in NL). As you can probably tell from the mentioned brands, I stayed with food products!</p>
             <br/><br/><br/>
           </div>
         </Modal>

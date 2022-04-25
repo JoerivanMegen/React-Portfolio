@@ -40,16 +40,21 @@ export default function SBGModal(props) {
           <div className="modal-job-details">
             <h3>Key Tasks:</h3>
             <ul>
-              <li>Optimising Indeed's organic clients' campaigns to increase their ROI in recruitment for the Benelux market.</li>
-              <li>Researching keywords, CPC (cost-per-click) prices, the job market and competitors to help give clients the best possible advise to improve their recruitment campaigns.</li>
-              <li>Communicate with my book of business to ensure a positive experience with Indeed's products.</li>
-              <li>Drive operational excellence through the identification and execution of opportunities that create efficiency, revenue and increase customer satisfaction.</li>
-              <li>Collaborate cross-functionally (with Finance, Product, Service teams) to refine recommendations and develop joint action plans.</li>
+              <li>Managing the Benelux' Dutch language social media accounts in terms of paid and organic advertising.</li>
+              <li>Running the Benelux, US and Canadian partnership developments.</li>
+              <li>Working on influencer outreach for the US market to increase SEO scores.</li>
+              <li>Close collaboration with the global marketing campaign manager.</li>
+              <li>Translating and localizing marketing campaigns to make them fit for the Benelux market.</li>
             </ul>
             <h3>Job Description:</h3>
-            <p>This Senior Sales Strategist position sits in our Global CS and Sales Strategy team which focuses on driving innovation in products, tools and processes that help our Sales teams succeed. We collaborate with functions across Indeed, including Sales, Product, Finance, Client Services, and Marketing to identify strategies for growth and efficiency. We are excited to help transform the recruitment industry by improving lives around the world, one job at a time.</p>
+            <p>SBG was the first step into my professional career. I started working here in 2018 as a marketing intern.<br/>
+            At first, my tasks were limited to doing research and finding out more about our position in the market, and how to acquire certain metrics on the performance of our Benelux domains. <br/> 
+            I started learning about Domain Authorities, Page Authorities, Bounce Rate and, more importantly, how to improve those metrics.</p>
             <br/>
-            <p>The Senior Sales Strategist works closely with stakeholders across functions and global regions to help lead and execute strategic initiatives that boost revenue, retain drive operational scale and improve efficiency for continuous exponential growth. Indeed employees are united by one common mission: they help people get jobs. The company’s success is due to the fact that their employees are laser-focused, collaborative, passionate, data-driven and committed to results.</p>
+            <p>Since SmartBuyGlasses is a small to medium-sized business, many of the "smaller" markets' marketing was run by interns. The Benelux market was not different.<br/>
+            After I had acquianted myself with the market and had translated and posted some of our campaigns on my domain's socials, I started working on partnership developments. Mostly with coupon sites who would offer our products at a discount, for a small margin per sold product through their portal. According to the global partnership development manager, I had closed more deals in my first three weeks than all other Benelux interns had closed together. I then got asked to work on partnerships in the US and Canada.</p>
+            <br/>
+            <p>I'm proud to mention that I was also selected to help out in the global marketing campaign team. This was where I was hoping to be part of. We were in charge of deciding which type of offers and discounts to bring out onto the market on which days. I was happy to be able to bring my creativity to good use. We did campaigns for Mother's Day, King's Day, the 2018 World Cup and more.</p>
             <br/><br/><br/>
           </div>
         </Modal>

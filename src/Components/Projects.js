@@ -15,7 +15,7 @@ export default function Projects() {
         <div id="Projects" className="projects-container">
             <div className="project-intro">
                 <h2>My Projects</h2>
-                <p>In this section, I would like to showcase some of the projects that I have developed so far in my career. You'll be able to see fully functional components, such as a stopwatch and a weather app, but also responsive websites, such as RoundStuff (my mock e-commerce page). If you're interested to see more, check out my github page!</p><p> You can find the link in the top section or in the footer below.</p>
+                <p>Below are some of the solo-projects that I have built (so far...). If you are interested to see more of what I've built, feel free to check my GitHub page! <br/>You can find a link at the top and bottom of this page. </p>
             </div>
             <div className="project-stopwatch">
                 <div className="project-description" data-aos={"fade-left"}>
