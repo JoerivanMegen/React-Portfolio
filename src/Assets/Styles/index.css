@@ -144,8 +144,7 @@
   .navbar.scroll .nav-links {
     height: 92vh;
     top: 8vh;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 52, 0.5)), color-stop(104%, rgba(0, 166, 196, 0.5)));
-    background-image: linear-gradient(to top, rgba(0, 0, 52, 0.5), rgba(0, 166, 196, 0.5) 104%);
+    background-color: rgba(0, 0, 0, 0.055);
   }
   .navbar.scroll .nav-links li {
     color: whitesmoke;
@@ -949,6 +948,7 @@
     bottom: 0;
     left: 0;
     right: 0;
+    top: 0;
     width: 100vw;
     height: 100vh;
     z-index: 999;
@@ -987,13 +987,13 @@
     margin-right: 3vh;
   }
   .modal-container .modal-box {
-    height: 90vh;
-    width: 110vw;
+    width: 100vw;
     position: absolute;
     bottom: 0;
     top: 10vh;
     left: 0;
     right: 0;
+    bottom: 0;
     max-width: none;
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
@@ -1872,11 +1872,28 @@ body {
   background-image: -webkit-gradient(linear, left bottom, left top, from(#000034), color-stop(95%, #00a6c4));
   background-image: linear-gradient(to top, #000034, #00a6c4 95%);
   min-height: 100vh;
+  max-height: 100vh;
   background-attachment: fixed;
   z-index: -2;
 }
 
 div#root {
   overflow: hidden;
+}
+
+@media screen and (max-width: 720px) {
+  body::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#000034), color-stop(95%, #00a6c4));
+    background-image: linear-gradient(to top, #000034, #00a6c4 95%);
+    z-index: -10;
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+  }
 }
 /*# sourceMappingURL=index.css.map */

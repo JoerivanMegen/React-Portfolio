@@ -20,9 +20,24 @@
 body{
     background-image: linear-gradient(to top, rgb(0, 0, 52), $background-color 95%);
     min-height: 100vh;
+    max-height: 100vh;
     background-attachment: fixed;
     z-index: -2;
 }
 div#root{
     overflow: hidden;
+}
+@media screen and (max-width: 720px){
+    body::before{
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-image: linear-gradient(to top, rgb(0, 0, 52), $background-color 95%);
+        z-index: -10;
+        background-size: cover;
+        background-position: center;
+        position: fixed;
+    }
 }
